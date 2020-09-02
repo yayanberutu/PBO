@@ -1,0 +1,16 @@
+1. Tanda "-" disetiap kelas merupakan abstract method yang perlu anda override.
+Setelah di-override di masing-masing kelas turunannya atau yang mengimplementnya akan berubah menjadi "+".
+
+2. Tanda "+" yang berada di dalam kelas abstract merupakan method yang telah di-implementasikan.
+
+3. Method "changeOilEngine" dan "loadPassenger" berbeda-beda cara penerapannya di masing-masing kelas.
+Anda bebas mengisi body method tersebut selama isi body nya berbeda satu dengan lainnya.
+
+4. Untuk method "setModeCar" hanya ada 4 jenis mode: Front, Rear, dan All-Wheel Drive. Tiap-tiap
+mode berbeda cara menggerakan mobil. Karena perbedaan ini, cara mendesign juga harus disesuaikan dengan mode-mode nya.
+
+Misal: Front Wheel Drive (FWD) => sumber gerak mobil dari depan,
+Rear Wheel Drive (RWD) => sumber gerak mobil dari belakang, dan
+All-Wheel Drive => sumber gerak dari depan dan belakang.
+
+Anda bebas mengisi body method "designCarBasedOnMode" di dalam kelas "FamilyCar", selama anda menunjukan perbedaan ketiga mode tersebut.
